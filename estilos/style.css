@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Cormorant Garamond", serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+}
+
+.icono {
+  padding: 10px;
+}
+.icono:hover {
+  height: 100px;
+}
+
+.bd-footer {
+  background-color: rgb(41, 39, 40);
+}
+
+.bd-navbar {
+  padding: 1.75rem 0;
+  background-color: rgb(41, 39, 40);
+}
+
+.navbar-brand {
+  font-size: 3rem;
+}
+
+.container2 {
+  padding: 0 5px;
+  margin: 5px 20%;
+}
+.container2 h3 {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  font-size: 3rem;
+}
+.container2 p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.meditacion {
+  padding: 0 5px;
+  margin: 5px 20%;
+}
+.meditacion h4 {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  font-size: 3rem;
+}
+.meditacion p {
+  margin-top: 20px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-size: 2.5rem;
+}
+
+.altura {
+  height: 50rem;
+}
+
+.my_mixin {
+  height: 400px;
+  width: 600px;
+}/*# sourceMappingURL=style.css.map */

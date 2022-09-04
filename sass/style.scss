@@ -1,0 +1,59 @@
+@import "fuentes";
+@import "generales";
+@import "footer";
+
+.bd-navbar{
+    padding: 1.75rem 0;
+    background-color: rgb(41, 39, 40)
+
+}
+
+.navbar-brand{
+    font-size: 3rem;
+}
+.container2{
+    padding: 0 5px ;
+    margin: 5px 20%;
+    h3{
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+        font-size: 3rem;
+     }
+     p{
+         margin-top: 20px;
+         margin-bottom: 40px;
+     }
+ }
+
+.meditacion{
+    padding: 0 5px;
+    margin: 5px 20%;
+    h4{
+       display: flex;
+       justify-content: center;
+       padding: 10px 0; 
+       font-size: 3rem;
+     }
+     p{
+     margin-top: 20px;
+     }   
+ }
+
+h1, h2, h3, h4, h5{
+    font-size: 2.5rem;
+}
+
+.altura {
+    height: 50rem;
+}
+
+@mixin sizes ($width, $height){
+    height: $height;
+    width: $width;
+}
+
+.my_mixin {
+    @include sizes (600px, 400px)
+}
+
